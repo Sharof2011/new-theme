@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Nunito Sans";
+}
+.conteiner {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  color: white;
+}
+body {
+  background-color: rgba(32, 44, 54, 1);
+}
+.what {
+  background-color: rgba(43, 56, 68, 1);
+}
+.inputs {
+  position: relative;
+}
+input {
+  width: 480px;
+  margin-top: 48px;
+  background-color: rgba(43, 56, 68, 1);
+  outline: none;
+  border: none;
+  padding: 18px 0;
+  border-radius: 5px;
+  padding-left: 50px;
+}
+.inputs img {
+  position: absolute;
+  top: 65px;
+  left: 15px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 27px;
+}
+.card {
+  background-color: rgba(43, 56, 68, 1);
+  width: 264px;
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.img  ,.img3{
+ width: 100%;
+  height: 160px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.img2 {
+  width: 264px;
+}
+@media (max-width: 768px) {
+  input {
+    width: 90%;
+  }
+  .inputs {
+    display: flex;
+    justify-content: center;
+  }
+  .inputs img{
+    left: 50px;
+  }
+}
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 161px;
+    margin-bottom: 131px;
+}
